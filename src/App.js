@@ -23,7 +23,7 @@ function App() {
     });
   }
   return (
-    <div>
+    <div className="app">
       <Header />
       <CreateArea submit={submit} />
       {items.map((item, index) => (
@@ -35,7 +35,7 @@ function App() {
           dataDelete={dataDelete}
         />
       ))}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
