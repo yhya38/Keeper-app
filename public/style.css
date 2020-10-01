@@ -9,9 +9,7 @@ html {
 }
 body {
   background: #eee;
-
 }
-
 
 header {
   background-color: #f5ba13;
@@ -26,7 +24,6 @@ header h1 {
   color: #fff;
   font-family: "McLaren", cursive;
   font-weight: 200;
-  
 }
 
 footer {
@@ -93,6 +90,9 @@ form textarea {
   resize: none;
 }
 form button {
+  justify-content: center;
+  align-items: center;
+  display: flex;
   position: absolute;
   right: 18px;
   bottom: -18px;
@@ -105,4 +105,14 @@ form button {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   outline: none;
+}
+form button:hover {
+  background: skyblue;
+}
+.note button:hover {
+  color: red;
+}
+.icon {
+  width: 100% !important;
+  height: 100% !important;
 }
